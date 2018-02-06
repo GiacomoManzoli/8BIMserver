@@ -9,6 +9,11 @@ $ npm start             # Hotreload del server ad ogni salvataggio, richiede sup
 $ npm run start-once    # avvia una sola volta
 ```
 
+I file statici di `8BIM` vengono cercati nella directory:
+
+```
+../../html_controls/8bim
+```
 
 ## Supervisor
 

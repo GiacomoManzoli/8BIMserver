@@ -84,7 +84,7 @@ app.get("/", (req, res) => {
   res.redirect("8bim.htm");
 });
 
-app.use(express.static(path.join(__dirname, "..")));
+app.use(express.static(path.join(__dirname, "../../html_controls/8bim")));
 
 
 app.listen(PORT, () => {

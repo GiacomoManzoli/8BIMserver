@@ -1,5 +1,5 @@
 {
-  "name": "8BIM Omnis-mock server",
+  "name": "8bim-omnis-mock-server",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
