@@ -1,0 +1,25 @@
+{
+  "name": "8BIM Omnis-mock server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-once": "node server.js",
+    "start": "supervisor server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "json-beautify": "^1.0.1",
+    "path": "^0.12.7",
+    "ws": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "prettier": "1.10.2"
+  }
+}
